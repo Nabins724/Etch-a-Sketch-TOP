@@ -29,8 +29,57 @@
     flex-direction: column;
     width: 502px;
     height: 502px;
-    background-color: azure;
+    /* background-color: azure; */
     border: 1px solid black;
     margin: 10px;
     padding: 0px;
+}
+.controls-container{
+    display: flex;
+}
+.controls{
+    font-size: 20px;
+}
+
+button{
+    width: 90px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(17, 56, 100);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(10, 102, 102);
+}
+
+.controls{
+    display: flex;
+    flex-direction: column;
+}
+.user-input{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 25px;
+
+}
+.reset{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.text-input{
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: burlywood;
+}
+
+#userInput{
+    font-size: 25px;
+    width: 100px;
+    text-align: center;
 }
